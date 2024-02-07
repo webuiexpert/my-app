@@ -1,13 +1,17 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import "./App.css"
+import Header from './Components/Header'
+import About from './Components/About'
+import Services from './Components/Services'
+import Contact from './Components/Contact'
 
 function App() {
   return (
-    <div>
-      <h1 className="bg-red-200">
-        hello this is a App page
-      </h1>
-      <Navbar> </Navbar>
+    <div id="main-page">
+      <Header />
+      <About />
+      <Services />
+      <Contact />
     </div>
   )
 }
