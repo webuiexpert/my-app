@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <h1 className="bg-red-200">
         hello this is a App page
       </h1>
+      <Navbar> </Navbar>
     </div>
   )
 }
