@@ -1,7 +1,8 @@
 import React from 'react'
-import Cards from './Cards/Cards'
-import Data from './Cards/Data'
-import image1 from './Cards/s1.png'
+import Cards from './Cards'
+import image1 from "../assets/images/s1.png"
+import image2 from "../assets/images/s2.png"
+import image3 from "../assets/images/s3.png"
 
 
 function Services() {
@@ -12,20 +13,17 @@ function Services() {
         <p>Here Is The Some Servies Which We Provide You.</p>
       </div>
       <div className="b-container">
-      <Cards  
-      stype={Data[0].stype}
+      <Cards stype="React"
       simage={image1}
-      sdescription={Data[0].sdescription}
+      sdescription="With Divi bas, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change"
       />
-      <Cards  
-      stype={Data[1].stype}
-      simage={image1}
-      sdescription={Data[1].sdescription}
+      <Cards stype="Python"
+      simage={image2}
+      sdescription="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio animi eos doloribus ipsa dolores, ratione atque nesciunt sint deleniti sed."
       />
-      <Cards  
-      stype={Data[2].stype}
-      simage={image1}
-      sdescription={Data[2].sdescription}
+      <Cards stype="Java"
+      simage={image3}
+      sdescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maxime vitae error esse impedit quos"
       />
       </div>
      

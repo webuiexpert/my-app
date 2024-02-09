@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./Navbar";
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
       <div className="name">
         <h1>
           {" "}
-          I am <span>Shankar </span> Bhatia
+          I am <span>John </span> Washington
         </h1>
         <p className="details">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veniam
